@@ -2,7 +2,7 @@
 // Результат присвойте переменной sum
 
 // your code
-let sum = 1;
+let sum = 0;
 let i = 1;
 
 while (i <= 20) {

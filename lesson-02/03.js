@@ -4,11 +4,11 @@
  * Результат сохраните в переменной grade.
  */
 
-const score = 100 // тестовое значение, можно изменять
+const score = 40 // тестовое значение, можно изменять
 let grade
 // your code
 
-if (score <= 49) {
+if (score === 45 || score <= 49) {
     grade = 'F'
     alert('your grade F')
 } else if (score <= 69) {

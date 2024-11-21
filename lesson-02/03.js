@@ -10,17 +10,12 @@ let grade
 
 if (score === 45 || score <= 49) {
     grade = 'F'
-    alert('your grade F')
 } else if (score <= 69) {
     grade = 'D'
-    alert('your grade D')
 } else if (score <= 79) {
     grade = 'C'
-    alert('your grade C')
 } else if (score <= 89) {
     grade = 'B'
-    alert('your grade B')
 } else if (score <= 100) {
     grade = 'A'
-    alert('your grade A')
 }

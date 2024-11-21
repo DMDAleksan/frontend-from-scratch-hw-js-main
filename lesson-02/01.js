@@ -13,7 +13,7 @@ const isVerifiedUser = true
 const hasSpecialPermission = false
 const hasTemporaryPass = true
 
-let isAccess
+let isAccess = false
 
 // your code
 

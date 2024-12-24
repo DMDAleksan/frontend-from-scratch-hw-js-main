@@ -10,21 +10,20 @@
 - Массив, содержащий только уникальные элементы из исходного массива.
 
 **Пример использования:**
-`findUniqueElements([1, 2, 3, 2, 1, 4])` вернёт `[1, 2, 3, 4]`.
+`findUniqueElements([1, 2, 3, 2, 1, 4])` вернёт `[1, 2, 3,4 ]`.
 
 Подсказка: можно использовать функцию `includesElement`, которую мы написали ранее. Переписывать её не нужно, она доступна по всему проекту за счёт hoisting.
 */
 const array = [1, 2, 3, 2, 1, 4]
-const uniqueElements = []
 
 function findUniqueElements(array) {
-    for (let num = 0; num < array.length; num++) {
-        if (num) {
-            uniqueElements.push
+    const uniqueElements = []
+    for (let index = 0; index < array.length; index++) {
+        const element = array[index];
+        if (!includesElement(uniqueElements, element)){
+            uniqueElements.push(element)
         }
     }
     return uniqueElements
 }
 
-const resault = findUniqueElements(array)
-console.log(resault);
